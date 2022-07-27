@@ -1,0 +1,71 @@
+/*Name: M Nauman Yousaf
+Github link: https://github.com/naumandeveloper1
+I am web application developer.
+Contact Us: 0301-1216608
+Whatsapp: 0301-1216608
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #663399e6;
+}
+.quiz-container {
+  width: 600px;
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 10px 10px 5px 5px #000;
+}
+.quiz-header {
+  padding: 2rem 0rem 1rem 1rem;
+}
+h2 {
+  /* font-size: 11.1rem; */
+  padding-left: 20px;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+input[type="radio"] {
+  margin-left: 30px;
+}
+ul li label {
+  cursor: pointer;
+  margin-left: 10px;
+}
+button {
+  width: 600px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: block;
+  font-size: 1.5rem;
+  border: none;
+  background: rebeccapurple;
+  margin: 0 auto;
+  padding: 1.1rem;
+  color: white;
+}
+button:hover {
+  background: rgb(102, 51, 153, 0.9);
+}
